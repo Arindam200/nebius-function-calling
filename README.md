@@ -26,7 +26,8 @@ npm install openai zod dotenv
 2. Set up your environment variables:
 
 ```bash
-export NEBIUS_API_KEY=your_api_key_here
+//.env
+NEBIUS_API_KEY=your_api_key_here
 ```
 
 ## Usage
@@ -40,7 +41,7 @@ The example demonstrates:
 
 ## How It Works
 
-1. Defines a schema for weather data using Zod
+1. Defines a schema for dummy data using Zod
 2. Sets up the OpenAI client with Nebius API configuration
 3. Creates a chat completion request with function calling capabilities
 4. Handles the AI response and executes the appropriate function
